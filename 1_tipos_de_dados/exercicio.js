@@ -1,22 +1,32 @@
 //resposta aqui
 
-/*Você criará um cartão fidelidade na loja Lumelância e deverá seguir os passos abaixo:
-
-- Crie variaveis para o guardar o nome, idade, se é a primeira vez e uma lista produtos favoritos do cliente
-- Atribua valores a essas variaveis
-- Crie um objeto que irá receber os valores dessa variaveis e o imprima o objeto no console
-*/
-
-var nome = "Luma";
-var idade = 30;
+//Crie variaveis para o guardar o nome, idade, se é a primeira vez e uma lista produtos favoritos do cliente
+var nome = "";
+var idade = Number;
 var primeiraVez = true;
-var favoritos = ["açai", "paçoca", "pão na chapa"];
+var listaProdutos = ['','','',''];
 
-var luma = {
+//Atribua valores a essas variaveis
+var meuObjeto = new Object ()
+meuObjeto.nome = "Natalia"
+meuObjeto.idade = 25
+meuObjeto.primeiraVez = true
+meuObjeto.listaProdutos = ['Oculos','Brinco','Colar','Pulseira']
+
+//Crie um objeto que irá receber os valores dessa variaveis e o imprima o objeto no console
+console.log(meuObjeto)
+
+///////////////////////////
+
+//criando objeto de outra Forma
+
+var Dados = {
     nome,
     idade,
     primeiraVez,
-    favoritos
+    listaProdutos
 };
+console.log(Dados)
 
-console.log(luma);
+
+
